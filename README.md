@@ -252,9 +252,9 @@ jupyter notebook replication_notebook.ipynb
 If you use this code or data in your research, please cite:
 
 ```bibtex
-@article{marti2025scaling,
+@article{,
   title={Scaling Laws and Knowledge Diffusion in Frontier AI Innovation},
-  author={Martí, P. and [Co-authors]},
+  author={},
   year={2025},
   journal={[Journal Name]},
   note={Working Paper}
@@ -275,7 +275,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 👥 Authors
 
-**Pablo Martí** - *Universidad de Alcalá*
+**XXX XXX* - *YYYY*
 
 ## 🙏 Acknowledgments
 
