@@ -1,0 +1,10 @@
+id,Model version,Tools,Production score,Lab Success %,Milestones,Automation,Most complex item,Date added,Cost,Source,Source link (site from table),Notes
+recM8yCK8gpP0f9t1,claude-3-5-sonnet-20240620,,293206.0,0.219,30.0,13.0,plastic-bar,2025-03-06,573.79,Factorio Learning Environment Leaderboard,https://jackhopkins.github.io/factorio-learning-environment/leaderboard/,
+recLCw8Fe3aGckwa1,gemini-2.0-flash-02-05,,115782.0,0.13,20.0,6.0,iron-gear-wheel,2025-03-06,25.45,Factorio Learning Environment Leaderboard,https://jackhopkins.github.io/factorio-learning-environment/leaderboard/,
+recOHRTbZ4qzHivab,gpt-4o-2024-11-20,,87599.0,0.166,30.0,9.0,plastic-bar,2025-03-06,356.505,Factorio Learning Environment Leaderboard,https://jackhopkins.github.io/factorio-learning-environment/leaderboard/,
+recSofqqLH2kQXHkd,Llama-3.3-70B-Instruct,,54998.0,0.052,16.0,4.0,iron-plate,2025-03-06,6.895,Factorio Learning Environment Leaderboard,https://jackhopkins.github.io/factorio-learning-environment/leaderboard/,
+reci6abLRqErOAEvd,DeepSeek-V3,,48585.0,0.151,22.0,7.0,plastic-bar,2025-03-06,115.995,Factorio Learning Environment Leaderboard,https://jackhopkins.github.io/factorio-learning-environment/leaderboard/,
+rec6lE8Gz606RB8oP,gpt-4o-mini-2024-07-18,,26756.0,0.042,14.0,4.0,iron-plate,2025-03-06,28.45,Factorio Learning Environment Leaderboard,https://jackhopkins.github.io/factorio-learning-environment/leaderboard/,
+rech5IPmXMLBpbpcN,gemini-2.5-pro-exp-03-25,,,0.184,,,,2025-05-08,,FLE v0.2 release notes,https://jackhopkins.github.io/factorio-learning-environment/release.0.2.0,
+recMdFyhIap9Qd5gs,claude-3-7-sonnet-20250219,,,0.291,,,,2025-05-08,,FLE v0.2 release notes,https://jackhopkins.github.io/factorio-learning-environment/release.0.2.0,
+recgMIbSZzrOwD1Cw,claude-3-5-sonnet-20240620,Reflection,,0.281,,,,2025-05-08,,FLE v0.2 release notes,https://jackhopkins.github.io/factorio-learning-environment/release.0.2.0,

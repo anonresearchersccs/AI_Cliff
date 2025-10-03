@@ -1,0 +1,77 @@
+Agent,Model version,Score,Source,Source link,Notes (details),Date added,Trajectories
+OpenAI CUA (200 steps),CUA,38.1,OS World Website,https://os-world.github.io/,,2025-01-24,
+Agent S2 w/ Claude 3.7 (50 steps),,34.5,OS World Website,https://os-world.github.io/,,2025-03-13,https://drive.google.com/drive/folders/18PTnMwgyhxIWTVNLMwf0sbzhvh9AlVqE?usp=drive_link
+Claude 3.7 Sonnet (100 steps),claude-3-7-sonnet-20250219,28.0,OS World Website,https://os-world.github.io/,,2025-02-24,
+Simular Agent S2 (15 steps),,27.0,OS World Website,https://os-world.github.io/,,2025-03-13,https://drive.google.com/drive/folders/18PTnMwgyhxIWTVNLMwf0sbzhvh9AlVqE?usp=drive_link
+Claude 3.7 Sonnet (50 steps),claude-3-7-sonnet-20250219,26.0,OS World Website,https://os-world.github.io/,,2025-02-24,
+UI-TARS-72B-DPO (50 steps),,24.6,OS World Website,https://os-world.github.io/,,2025-01-21,https://drive.google.com/file/d/1vUWlXVenkOc5F1s-z8DdpfU4Y5fUMssr/view?usp=drive_link
+UI-TARS-72B-DPO (15 steps),,22.7,OS World Website,https://os-world.github.io/,,2025-01-21,
+Claude 3.5 Sonnet (50 steps),claude-3-5-sonnet-20240620,22.0,OS World Website,https://os-world.github.io/,,2024-10-22,
+Claude 3.5 Sonnet (new) (100 steps),claude-3-5-sonnet-20241022,21.0,OS World Website,https://os-world.github.io/,,2025-02-24,
+OpenAI CUA (15 steps),CUA,19.7,OS World Website,https://os-world.github.io/,,2025-01-24,
+Claude 3.5 Sonnet (new) (50 steps),claude-3-5-sonnet-20241022,19.5,OS World Website,https://os-world.github.io/,,2025-02-24,
+UI-TARS-72B-SFT (15 steps),,18.8,OS World Website,https://os-world.github.io/,,2025-01-21,
+UI-TARS-7B-DPO (15 steps),,18.7,OS World Website,https://os-world.github.io/,,2025-01-21,
+UI-TARS-7B-SFT (15 steps),,17.7,OS World Website,https://os-world.github.io/,,2025-01-21,
+Aguvis-72B w/ GPT-4o,,17.04,OS World Website,https://os-world.github.io/,,2024-11-22,
+Claude 3.7 Sonnet (15 steps),claude-3-7-sonnet-20250219,15.5,OS World Website,https://os-world.github.io/,,2024-12-24,
+Aria-UI w/ GPT-4o,,15.15,OS World Website,https://os-world.github.io/,,2024-12-24,
+Claude 3.5 Sonnet (15 steps),claude-3-5-sonnet-20240620,14.9,OS World Website,https://os-world.github.io/,,2024-10-22,
+Aguvis-7B w/ GPT-4o,,14.79,OS World Website,https://os-world.github.io/,,2024-11-22,
+OS-Atlas-Base-7B w/ GPT-4o,,14.63,OS World Website,https://os-world.github.io/,,2024-10-30,
+OS-Atlas-Base-4B w/ GPT-4o,,11.65,OS World Website,https://os-world.github.io/,,2024-10-30,
+Aguvis-72B,,10.26,OS World Website,https://os-world.github.io/,,2024-11-22,
+SeeClick w/ GPT-4o,,9.21,OS World Website,https://os-world.github.io/,,2024-10-30,
+Qwen2.5-vl-72B,Qwen2.5-VL-72B-Instruct,8.8,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 32k",2025-01-26,
+Ponder&Press w/ GPT-4o,,8.7,OS World Website,https://os-world.github.io/,,2024-12-02,
+CogAgent-9B-20241220,,8.12,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len =",2024-12-24,
+CRADLE w/ GPT-4o,,7.81,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 32k",2024-06-14,https://drive.google.com/drive/folders/14_xlL-e0-0INq2O1THbhFKi6Z0bgfwR4?usp=drive_link
+GPT-4 Vision,gpt-4-1106-vision-preview,7.69,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 32k",2024-05-24,https://drive.google.com/file/d/1miMp-AR_hOfLUWszGb_aZG2f_Nd66Ntt/view?usp=drive_link
+Gemini-Pro Vision,,5.8,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 32k",2024-03-20,https://drive.google.com/file/d/17jgZEjslxIZPC5kuzOq6oTK5EuDiJ-_l/view?usp=drive_link
+GPT-4 Vision (0409),gpt-4-turbo-2024-04-09,5.4,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 32k",2024-04-23,https://drive.google.com/drive/folders/1NLsHdLUNZOHsEC5xNZ4e4PHkDC5IELjj?usp=drive_link
+Gemini-Pro-1.5,gemini-1.5-pro-001,5.4,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 128k",2024-04-03,https://drive.google.com/drive/folders/1j-YVzEGAGWxXgse75MCnhUCTVuejM76A?usp=drive_link
+GPT-4 Vision (2024-03-20),,5.26,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 32k",2024-03-20,
+GPT-4o,gpt-4o-2024-05-13,5.03,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 32k",2024-05-20,https://drive.google.com/file/d/1mN12zjCiawfU4k1ifPsLW-hcuzPV7Voz/view?usp=drive_link
+GPT-4o-mini,gpt-4o-mini-2024-07-18,3.77,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 128k",2024-08-17,https://drive.google.com/file/d/1Skq_uMcAR08LMDnIpOswjxm5ntbVXm5M/view?usp=drive_link
+InternVL2,,3.33,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len =",2024-08-17,https://drive.google.com/file/d/1KSYs7ZOhEkjBQX5UnMpLkbxZZ6BLhbDm/view?usp=drive_link
+Claude-3-Opus,claude-3-opus-20240229,2.42,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 200k",2024-03-20,
+Llava-OneVision,,2.42,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len =",2024-08-17,https://drive.google.com/file/d/1geppLqwV80p66bXdffVBbLayjCkIQ9mk/view?usp=drive_link
+Qwen-vl-Max-0809,,2.42,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len = 32k",2024-09-10,https://drive.google.com/drive/folders/1iBOXZpknCi1Fqzg0fQMG6CZc9NWrwdkf?usp=drive_link
+MiniCPM-V 2.6,,1.88,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len =",2024-08-17,https://drive.google.com/file/d/1T58G_EIr4pWZYJ8plXEWspFHr35g-Nsy/view?usp=drive_link
+CogAgent,,1.11,OS World Website,https://os-world.github.io/,"t=1.0, top-p=0.9
+
+len =",2024-03-20,
+UI-TARS-1.5 (100 steps),,42.5,OS World Website,https://os-world.github.io/,,2025-04-17,https://drive.google.com/file/d/1e7SCYqpxFX2FCGEOhf6jcVvwkx3leIKf/view?usp=drive_link
+Agent S2 w/ Gemini 2.5 (50 steps),,41.4,OS World Website,https://os-world.github.io/,,2025-04-18,https://drive.google.com/drive/folders/18PTnMwgyhxIWTVNLMwf0sbzhvh9AlVqE?usp=drive_link
+UI-TARS-1.5 7B (100 steps),,26.92,OS World Website,https://os-world.github.io/,,2025-04-17,
+Kimi-VL,,8.22,OS World Website,https://os-world.github.io/,,2025-04-10,

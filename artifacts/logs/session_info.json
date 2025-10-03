@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-09-19T16:04:49.067714",
+  "python": "3.11.10 | packaged by Anaconda, Inc. | (main, Oct  3 2024, 07:22:26) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "statsmodels": "0.14.2",
+  "lifelines": "0.30.0"
+}

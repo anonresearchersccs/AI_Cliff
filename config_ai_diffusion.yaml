@@ -1,0 +1,46 @@
+paths:
+  scaling_data: "./data/scaling_dataset.parquet"
+  diffusion_data: "./data/diffusion_pairs.parquet"
+
+exports:
+  fig_dir: "./artifacts/figures"
+  tab_dir: "./artifacts/tables"
+  log_dir: "./artifacts/logs"
+
+scaling_spec:
+  compute_unit: auto   # o 'FLOPs' | 'PF-days' | 'TFLOP-days' | 'GFLOP-days'
+
+
+diffusion_spec:
+  window_months: 60
+  min_lead_months: 4.8   # ← umbral de comparabilidad; cámbialo aquí, no en código
+
+investment_spec:
+  # Anclas técnicas:
+  compute_at_1b_params: null    # ← si null, se estima del intercepto del modelo (preferido)
+  price_per_flop_now: 5e-11     # ← única fuente de $/FLOP; >0 y razonable. Ajusta aquí.
+  min_price_per_flop: 5e-11     # ← como “guardarraíl”; si price_per_flop_now<este, se eleva a este valor
+
+  # Objetivos de calibración:
+  target_mean_npv: 3.53e10      # 35.3 bn (Tier III)
+  enforce_var5p_nonneg: true    # imponer VaR 5% ≥ 0 en la calibración
+  n_sims: 50000                  # reduce ruido MC; puedes dejar 20000 si prefieres
+
+  # Monte Carlo:
+  annual_discount_rate: 0.20
+  horizon_months: 72
+  revenue_lognorm_sigma: 1.0
+  n_sims: 10000
+  post_competition_drop: 0.7
+
+apc_spec:
+  scenario: "TierIV"        # "TierIII" o "TierIV"
+  tiers:
+    TierIII:
+      params_billion: 1000.0      # como ahora
+      cost_multiplier: 1.0
+      mu_shift: 0.0               # no tocar μ
+    TierIV:
+      params_billion: 1000.0
+      cost_multiplier: 1.8         # ↑ coste efectivo (ajusta 1.5–2.2 según paper)
+      mu_shift: -0.15              # ↓ μ (revenues) ~15% si quieres endurecer

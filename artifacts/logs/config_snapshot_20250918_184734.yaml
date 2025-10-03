@@ -1,0 +1,58 @@
+# YAML config for AI Diffusion Economics — v2
+meta:
+  project_name: "AI Diffusion Economics v2"
+  author: "P. Martí et al."
+  seed: 42
+  smoketest: false
+paths:
+  scaling_data: "./data/scaling_dataset.parquet"
+  diffusion_data: "./data/diffusion_pairs.parquet"
+exports:
+  fig_dir: "./artifacts/figures"
+  tab_dir: "./artifacts/tables"
+  log_dir: "./artifacts/logs"
+  model_dir: "./artifacts/models"
+scaling_spec:
+  dep: "params"
+  compute_col: ["train_compute_flops","train_compute_floats","train_flops"]
+  params_col: ["parameters","params","n_params"]
+  cost_col: ["train_cost_usd","cost_usd"]
+  year_col: ["year","release_year"]
+  arch_col: ["architecture","arch","model_family"]
+  tier_col: ["tier"]
+  org_type_col: ["org_type","developer_type"]
+  params_scale: 1e9
+  compute_scale: 1.0
+  cost_scale: 1.0
+  form_params_vs_compute: "log_params ~ log_compute + C(year) + C(arch)"
+  form_cost_vs_params:    "log_cost ~ log_params + C(year) + C(arch)"
+  robust_se: "HC3"
+diffusion_spec:
+  innov_date_col: ["innov_date","date_innov","t0"]
+  follower_date_col: ["follower_date","date_follow","t1"]
+  tier_col: ["tier"]
+  org_type_col: ["org_type"]
+  openness_col: ["openness","is_open"]
+  window_months: 60
+  km_fig: "survival_km.png"
+  cox_fig: "cox_diagnostics.png"
+  km_table: "km_summary.csv"
+  cox_table: "cox_summary.csv"
+investment_spec:
+  target_params_billion: 1000.0
+  gamma_compute: 1.697
+  gamma_cost: 0.702
+  compute_at_1b_params: 1.0e20
+  price_per_flop_now: 2.0e-10
+  price_decline_rate_annual: 0.35
+  revenue_lognorm_mu: 15.0
+  revenue_lognorm_sigma: 1.0
+  post_competition_drop: 0.7
+  horizon_months: 72
+  annual_discount_rate: 0.2
+  n_sims: 10000
+  max_apc_share: 0.9
+  tol_apc: 1.0e-4
+  npv_hist_fig: "npv_hist.png"
+  npv_summary_table: "npv_summary.csv"
+  tornado_fig: "tornado_sensitivity.png"
