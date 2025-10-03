@@ -1,0 +1,112 @@
+{
+  "scaling_laws": {
+    "outlier_sensitivity": {
+      "error": "The indices for endog and exog are not aligned"
+    },
+    "temporal_stability": {
+      "yearly_estimates": [
+        {
+          "year": 2020,
+          "gamma": 1.110516521921042,
+          "n_obs": 67
+        },
+        {
+          "year": 2021,
+          "gamma": 1.027985223453394,
+          "n_obs": 126
+        },
+        {
+          "year": 2022,
+          "gamma": 1.2835358349150063,
+          "n_obs": 110
+        },
+        {
+          "year": 2023,
+          "gamma": 1.316780102526708,
+          "n_obs": 200
+        }
+      ],
+      "gamma_std_across_years": 0.11966242651369886,
+      "stable": "True"
+    }
+  },
+  "diffusion": {
+    "threshold_sensitivity": {
+      "results": [
+        {
+          "threshold": 0.4,
+          "n_pairs": 1317,
+          "mean_lag": 34.22299316429148,
+          "median_lag": 35.51248357424441
+        },
+        {
+          "threshold": 0.5,
+          "n_pairs": 1293,
+          "mean_lag": 34.342837659163415,
+          "median_lag": 35.611038107752954
+        },
+        {
+          "threshold": 0.6,
+          "n_pairs": 418,
+          "mean_lag": 28.103524699935235,
+          "median_lag": 27.201051248357423
+        },
+        {
+          "threshold": 0.7,
+          "n_pairs": 18,
+          "mean_lag": 16.661191414805085,
+          "median_lag": 10.627463863337713
+        }
+      ],
+      "stable": true
+    },
+    "organization_bias": {
+      "by_organization": [
+        {
+          "organization": "OpenAI",
+          "n_pairs": 1322,
+          "mean_lag": 34.30063058997536,
+          "std_lag": 17.40558334642244
+        }
+      ],
+      "n_organizations": 1
+    }
+  },
+  "sample_sensitivity": {
+    "bootstrap_analysis": {
+      "results": [
+        {
+          "sample_size": 1509,
+          "fraction": 0.5,
+          "params_mean": 743900421742.637,
+          "params_median": 1300000000.0
+        },
+        {
+          "sample_size": 2112,
+          "fraction": 0.6998011928429424,
+          "params_mean": 557391004421.3037,
+          "params_median": 1300000000.0
+        },
+        {
+          "sample_size": 2414,
+          "fraction": 0.7998674618952949,
+          "params_mean": 489798839182.2376,
+          "params_median": 1300000000.0
+        },
+        {
+          "sample_size": 2716,
+          "fraction": 0.8999337309476475,
+          "params_mean": 440434861595.22156,
+          "params_median": 1300000000.0
+        }
+      ],
+      "original_size": 3018
+    },
+    "missing_data_sensitivity": {
+      "original_n": 3018,
+      "complete_cases_n": 0,
+      "completion_rate": 0.0,
+      "usable_for_analysis": false
+    }
+  }
+}

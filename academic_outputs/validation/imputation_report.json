@@ -1,0 +1,703 @@
+{
+  "missing_analysis": {
+    "basic_stats": {
+      "total_observations": "3018",
+      "columns_with_missing": 44,
+      "overall_missing_rate": 0.4405523381450428,
+      "by_column": {
+        "Model": "0.03313452617627568",
+        "Domain": "2.617627567925779",
+        "Task": "3.9761431411530817",
+        "Organization": "2.68389662027833",
+        "Authors": "19.748177601060306",
+        "Publication date": "0.5301524188204109",
+        "Reference": "4.970178926441352",
+        "Link": "1.2259774685222002",
+        "Citations": "52.75016567263088",
+        "Notability criteria": "64.61232604373758",
+        "Notability criteria notes": "77.30284956925117",
+        "Parameters": "34.59244532803181",
+        "Parameters notes": "48.60834990059642",
+        "Training compute (FLOP)": "58.81378396288933",
+        "Training compute notes": "51.42478462557985",
+        "Training dataset": "45.096090125911196",
+        "Training dataset notes": "65.30815109343936",
+        "Training dataset size (datapoints)": "50.165672630881375",
+        "Dataset size notes": "51.0934393638171",
+        "Batch size": "92.61100066269053",
+        "Batch size notes": "95.16235917826376",
+        "Epochs": "75.01656726308813",
+        "Training hardware": "66.43472498343273",
+        "Hardware quantity": "76.24254473161034",
+        "Abstract": "18.058316766070245",
+        "Model accessibility": "29.953611663353215",
+        "Hardware utilization": "97.44864148442677",
+        "Confidence": "7.488402915838304",
+        "Base model": "82.53810470510273",
+        "Finetune compute (FLOP)": "93.33996023856858",
+        "Finetune compute notes": "92.11398277004639",
+        "Training code accessibility": "39.29754804506296",
+        "Accessibility notes": "54.60569913850232",
+        "Training compute cost (2023 USD)": "93.60503644797879",
+        "Training compute estimation method": "59.41020543406229",
+        "Organization categorization": "35.586481113320076",
+        "earliest_release_date": "93.07488402915838",
+        "effective_date": "0.4970178926441352",
+        "log_parameters": "34.59244532803181",
+        "log_compute": "58.81378396288933",
+        "log_cost": "93.60503644797879",
+        "year": "0.4970178926441352",
+        "quarter": "0.4970178926441352",
+        "days_since_start": "0.4970178926441352",
+        "capability_tier": "0.0",
+        "org_type_simple": "0.0"
+      }
+    },
+    "patterns": {
+      "(False, False, False, False, True, False, False, False, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, False, False, True, False, True, True, True, False, True, True, True, False, True, False, True, True, True, False, False, False, False, False)": "53",
+      "(False, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, False, True, False, True, True, True, False, False, False, False, False)": "43",
+      "(False, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False)": "32",
+      "(False, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False)": "17",
+      "(False, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, False, True, True, True, True, True, True, True, False, True, False, True, True, True, False, False, False, False, False)": "13",
+      "(False, False, False, False, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, False, True, False, True, True, True, False, False, False, False, False)": "13",
+      "(False, False, False, False, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, False, True, True, True, True, True, True, True, False, True, False, True, True, True, False, False, False, False, False)": "12",
+      "(False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True, True, False, True, True, False, True, True, True, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False)": "12",
+      "(False, False, False, False, False, False, False, False, False, False, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, False, False, True, True, False, False, False, False, False)": "11",
+      "(False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False)": "11"
+    },
+    "missing_correlations": [
+      {
+        "var1": "Domain",
+        "var2": "Task",
+        "correlation": 0.7632139981598458
+      },
+      {
+        "var1": "Domain",
+        "var2": "Organization",
+        "correlation": 0.5121103257526405
+      },
+      {
+        "var1": "Domain",
+        "var2": "Publication date",
+        "correlation": 0.4167093263230097
+      },
+      {
+        "var1": "Domain",
+        "var2": "Link",
+        "correlation": 0.32120062338952815
+      },
+      {
+        "var1": "Domain",
+        "var2": "effective_date",
+        "correlation": 0.4015654537987546
+      },
+      {
+        "var1": "Domain",
+        "var2": "year",
+        "correlation": 0.4015654537987546
+      },
+      {
+        "var1": "Domain",
+        "var2": "quarter",
+        "correlation": 0.4015654537987546
+      },
+      {
+        "var1": "Domain",
+        "var2": "days_since_start",
+        "correlation": 0.4015654537987546
+      },
+      {
+        "var1": "Task",
+        "var2": "Organization",
+        "correlation": 0.4803461509925816
+      },
+      {
+        "var1": "Task",
+        "var2": "Publication date",
+        "correlation": 0.33541613707040785
+      },
+      {
+        "var1": "Task",
+        "var2": "effective_date",
+        "correlation": 0.3232041208208242
+      },
+      {
+        "var1": "Task",
+        "var2": "year",
+        "correlation": 0.3232041208208242
+      },
+      {
+        "var1": "Task",
+        "var2": "quarter",
+        "correlation": 0.3232041208208242
+      },
+      {
+        "var1": "Task",
+        "var2": "days_since_start",
+        "correlation": 0.3232041208208242
+      },
+      {
+        "var1": "Organization",
+        "var2": "Publication date",
+        "correlation": 0.3549070400309799
+      },
+      {
+        "var1": "Organization",
+        "var2": "effective_date",
+        "correlation": 0.3381136268142329
+      },
+      {
+        "var1": "Organization",
+        "var2": "year",
+        "correlation": 0.3381136268142329
+      },
+      {
+        "var1": "Organization",
+        "var2": "quarter",
+        "correlation": 0.3381136268142329
+      },
+      {
+        "var1": "Organization",
+        "var2": "days_since_start",
+        "correlation": 0.3381136268142329
+      },
+      {
+        "var1": "Authors",
+        "var2": "Reference",
+        "correlation": 0.4112331025530095
+      },
+      {
+        "var1": "Authors",
+        "var2": "Citations",
+        "correlation": 0.46281913158661186
+      },
+      {
+        "var1": "Authors",
+        "var2": "Training dataset size (datapoints)",
+        "correlation": 0.322962498609032
+      },
+      {
+        "var1": "Publication date",
+        "var2": "Link",
+        "correlation": 0.613827778664774
+      },
+      {
+        "var1": "Publication date",
+        "var2": "effective_date",
+        "correlation": 0.9680846100356171
+      },
+      {
+        "var1": "Publication date",
+        "var2": "year",
+        "correlation": 0.9680846100356171
+      },
+      {
+        "var1": "Publication date",
+        "var2": "quarter",
+        "correlation": 0.9680846100356171
+      },
+      {
+        "var1": "Publication date",
+        "var2": "days_since_start",
+        "correlation": 0.9680846100356171
+      },
+      {
+        "var1": "Reference",
+        "var2": "Link",
+        "correlation": 0.37631235595072143
+      },
+      {
+        "var1": "Link",
+        "var2": "effective_date",
+        "correlation": 0.5915611764557789
+      },
+      {
+        "var1": "Link",
+        "var2": "year",
+        "correlation": 0.5915611764557789
+      },
+      {
+        "var1": "Link",
+        "var2": "quarter",
+        "correlation": 0.5915611764557789
+      },
+      {
+        "var1": "Link",
+        "var2": "days_since_start",
+        "correlation": 0.5915611764557789
+      },
+      {
+        "var1": "Citations",
+        "var2": "Notability criteria",
+        "correlation": 0.41968770862628624
+      },
+      {
+        "var1": "Notability criteria",
+        "var2": "Notability criteria notes",
+        "correlation": 0.5369758027591292
+      },
+      {
+        "var1": "Notability criteria",
+        "var2": "Training compute cost (2023 USD)",
+        "correlation": 0.33052623566293393
+      },
+      {
+        "var1": "Notability criteria",
+        "var2": "log_cost",
+        "correlation": 0.33052623566293393
+      },
+      {
+        "var1": "Notability criteria notes",
+        "var2": "Training compute cost (2023 USD)",
+        "correlation": 0.3239459693248483
+      },
+      {
+        "var1": "Notability criteria notes",
+        "var2": "log_cost",
+        "correlation": 0.3239459693248483
+      },
+      {
+        "var1": "Parameters",
+        "var2": "Parameters notes",
+        "correlation": 0.608397449269914
+      },
+      {
+        "var1": "Parameters",
+        "var2": "Training compute (FLOP)",
+        "correlation": 0.39768792720343765
+      },
+      {
+        "var1": "Parameters",
+        "var2": "Training compute notes",
+        "correlation": 0.3723038330592643
+      },
+      {
+        "var1": "Parameters",
+        "var2": "Training dataset size (datapoints)",
+        "correlation": 0.3319545376002798
+      },
+      {
+        "var1": "Parameters",
+        "var2": "Dataset size notes",
+        "correlation": 0.3129607057154729
+      },
+      {
+        "var1": "Parameters",
+        "var2": "Accessibility notes",
+        "correlation": 0.3244801803649311
+      },
+      {
+        "var1": "Parameters",
+        "var2": "Training compute estimation method",
+        "correlation": 0.3713096897058911
+      },
+      {
+        "var1": "Parameters",
+        "var2": "log_parameters",
+        "correlation": 1.0
+      },
+      {
+        "var1": "Parameters",
+        "var2": "log_compute",
+        "correlation": 0.39768792720343765
+      },
+      {
+        "var1": "Parameters notes",
+        "var2": "Training compute (FLOP)",
+        "correlation": 0.409755980341845
+      },
+      {
+        "var1": "Parameters notes",
+        "var2": "Training compute notes",
+        "correlation": 0.4186202588593873
+      },
+      {
+        "var1": "Parameters notes",
+        "var2": "Training dataset notes",
+        "correlation": 0.30770544817268075
+      },
+      {
+        "var1": "Parameters notes",
+        "var2": "Training dataset size (datapoints)",
+        "correlation": 0.3050497183164877
+      },
+      {
+        "var1": "Parameters notes",
+        "var2": "Dataset size notes",
+        "correlation": 0.3626648988572163
+      },
+      {
+        "var1": "Parameters notes",
+        "var2": "Training compute estimation method",
+        "correlation": 0.41641664817576973
+      },
+      {
+        "var1": "Parameters notes",
+        "var2": "log_parameters",
+        "correlation": 0.6083974492699141
+      },
+      {
+        "var1": "Parameters notes",
+        "var2": "log_compute",
+        "correlation": 0.409755980341845
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "Training compute notes",
+        "correlation": 0.8596769911548842
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "Training dataset size (datapoints)",
+        "correlation": 0.4908692547878768
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "Dataset size notes",
+        "correlation": 0.43648236563332155
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "Epochs",
+        "correlation": 0.3117306598952276
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "Training hardware",
+        "correlation": 0.418841953245425
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "Hardware quantity",
+        "correlation": 0.32696120197641004
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "Training compute cost (2023 USD)",
+        "correlation": 0.30133722347949343
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "Training compute estimation method",
+        "correlation": 0.8383022726186218
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "log_parameters",
+        "correlation": 0.39768792720343765
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "log_compute",
+        "correlation": 1.0
+      },
+      {
+        "var1": "Training compute (FLOP)",
+        "var2": "log_cost",
+        "correlation": 0.30133722347949343
+      },
+      {
+        "var1": "Training compute notes",
+        "var2": "Training dataset size (datapoints)",
+        "correlation": 0.4712725056524244
+      },
+      {
+        "var1": "Training compute notes",
+        "var2": "Dataset size notes",
+        "correlation": 0.43371893528462574
+      },
+      {
+        "var1": "Training compute notes",
+        "var2": "Training hardware",
+        "correlation": 0.415468380999487
+      },
+      {
+        "var1": "Training compute notes",
+        "var2": "Hardware quantity",
+        "correlation": 0.3157736611177708
+      },
+      {
+        "var1": "Training compute notes",
+        "var2": "Training compute estimation method",
+        "correlation": 0.7478622312612034
+      },
+      {
+        "var1": "Training compute notes",
+        "var2": "log_parameters",
+        "correlation": 0.37230383305926423
+      },
+      {
+        "var1": "Training compute notes",
+        "var2": "log_compute",
+        "correlation": 0.8596769911548842
+      },
+      {
+        "var1": "Training dataset",
+        "var2": "Model accessibility",
+        "correlation": 0.40898778258139395
+      },
+      {
+        "var1": "Training dataset",
+        "var2": "Training code accessibility",
+        "correlation": 0.4146927749379341
+      },
+      {
+        "var1": "Training dataset",
+        "var2": "Accessibility notes",
+        "correlation": 0.3475014734022837
+      },
+      {
+        "var1": "Training dataset size (datapoints)",
+        "var2": "Dataset size notes",
+        "correlation": 0.6873057532992919
+      },
+      {
+        "var1": "Training dataset size (datapoints)",
+        "var2": "Epochs",
+        "correlation": 0.3463342906898404
+      },
+      {
+        "var1": "Training dataset size (datapoints)",
+        "var2": "Training compute estimation method",
+        "correlation": 0.48788550871974035
+      },
+      {
+        "var1": "Training dataset size (datapoints)",
+        "var2": "log_parameters",
+        "correlation": 0.3319545376002798
+      },
+      {
+        "var1": "Training dataset size (datapoints)",
+        "var2": "log_compute",
+        "correlation": 0.49086925478787674
+      },
+      {
+        "var1": "Dataset size notes",
+        "var2": "Training compute estimation method",
+        "correlation": 0.4817433150022021
+      },
+      {
+        "var1": "Dataset size notes",
+        "var2": "log_parameters",
+        "correlation": 0.3129607057154729
+      },
+      {
+        "var1": "Dataset size notes",
+        "var2": "log_compute",
+        "correlation": 0.43648236563332166
+      },
+      {
+        "var1": "Batch size",
+        "var2": "Batch size notes",
+        "correlation": 0.7746062720835264
+      },
+      {
+        "var1": "Epochs",
+        "var2": "Training compute estimation method",
+        "correlation": 0.3054140174851364
+      },
+      {
+        "var1": "Epochs",
+        "var2": "log_compute",
+        "correlation": 0.3117306598952276
+      },
+      {
+        "var1": "Training hardware",
+        "var2": "Hardware quantity",
+        "correlation": 0.7226825135789704
+      },
+      {
+        "var1": "Training hardware",
+        "var2": "Training compute cost (2023 USD)",
+        "correlation": 0.3591201233271098
+      },
+      {
+        "var1": "Training hardware",
+        "var2": "Training compute estimation method",
+        "correlation": 0.4312756046643155
+      },
+      {
+        "var1": "Training hardware",
+        "var2": "log_compute",
+        "correlation": 0.418841953245425
+      },
+      {
+        "var1": "Training hardware",
+        "var2": "log_cost",
+        "correlation": 0.3591201233271098
+      },
+      {
+        "var1": "Hardware quantity",
+        "var2": "Training compute estimation method",
+        "correlation": 0.34557492337815204
+      },
+      {
+        "var1": "Hardware quantity",
+        "var2": "log_compute",
+        "correlation": 0.32696120197641004
+      },
+      {
+        "var1": "Abstract",
+        "var2": "Model accessibility",
+        "correlation": 0.4245270780951458
+      },
+      {
+        "var1": "Abstract",
+        "var2": "Training code accessibility",
+        "correlation": 0.35594758030629703
+      },
+      {
+        "var1": "Model accessibility",
+        "var2": "Training code accessibility",
+        "correlation": 0.7890436752086452
+      },
+      {
+        "var1": "Model accessibility",
+        "var2": "Accessibility notes",
+        "correlation": 0.5729825987248496
+      },
+      {
+        "var1": "Base model",
+        "var2": "Finetune compute (FLOP)",
+        "correlation": 0.5632431891284922
+      },
+      {
+        "var1": "Base model",
+        "var2": "Finetune compute notes",
+        "correlation": 0.5972730567211717
+      },
+      {
+        "var1": "Finetune compute (FLOP)",
+        "var2": "Finetune compute notes",
+        "correlation": 0.8784166367516529
+      },
+      {
+        "var1": "Training code accessibility",
+        "var2": "Accessibility notes",
+        "correlation": 0.5564625147612294
+      },
+      {
+        "var1": "Accessibility notes",
+        "var2": "log_parameters",
+        "correlation": 0.32448018036493115
+      },
+      {
+        "var1": "Training compute cost (2023 USD)",
+        "var2": "Training compute estimation method",
+        "correlation": 0.30794799979227905
+      },
+      {
+        "var1": "Training compute cost (2023 USD)",
+        "var2": "log_compute",
+        "correlation": 0.3013372234794933
+      },
+      {
+        "var1": "Training compute cost (2023 USD)",
+        "var2": "log_cost",
+        "correlation": 1.0
+      },
+      {
+        "var1": "Training compute estimation method",
+        "var2": "log_parameters",
+        "correlation": 0.3713096897058911
+      },
+      {
+        "var1": "Training compute estimation method",
+        "var2": "log_compute",
+        "correlation": 0.8383022726186216
+      },
+      {
+        "var1": "Training compute estimation method",
+        "var2": "log_cost",
+        "correlation": 0.3079479997922791
+      },
+      {
+        "var1": "effective_date",
+        "var2": "year",
+        "correlation": 1.0
+      },
+      {
+        "var1": "effective_date",
+        "var2": "quarter",
+        "correlation": 1.0
+      },
+      {
+        "var1": "effective_date",
+        "var2": "days_since_start",
+        "correlation": 1.0
+      },
+      {
+        "var1": "log_parameters",
+        "var2": "log_compute",
+        "correlation": 0.39768792720343765
+      },
+      {
+        "var1": "log_compute",
+        "var2": "log_cost",
+        "correlation": 0.30133722347949343
+      },
+      {
+        "var1": "year",
+        "var2": "quarter",
+        "correlation": 1.0
+      },
+      {
+        "var1": "year",
+        "var2": "days_since_start",
+        "correlation": 1.0
+      },
+      {
+        "var1": "quarter",
+        "var2": "days_since_start",
+        "correlation": 1.0
+      }
+    ],
+    "domain_patterns": {
+      "proprietary_bias": {
+        "proprietary_missing_rate": 0.8511627906976744,
+        "other_missing_rate": 0.9425615412058509,
+        "bias_detected": false
+      },
+      "historical_bias": {
+        "pre_2020_missing_rate": 0.46222113662269987,
+        "post_2020_missing_rate": 0.4295502112703866,
+        "bias_detected": false
+      },
+      "size_bias": {
+        "small_models_missing_rate": 0.3853714690516249,
+        "large_models_missing_rate": 0.36960904628331,
+        "bias_detected": false
+      }
+    }
+  },
+  "imputation_quality": {
+    "coverage": {
+      "original_missing": "61161",
+      "imputed_missing": "44982",
+      "improvement": "16179",
+      "improvement_rate": "0.26453131897778"
+    },
+    "Parameters_distribution": {
+      "ks_statistic": "0.24246818984774232",
+      "ks_p_value": "4.57100311051105e-62",
+      "distribution_preserved": "False"
+    },
+    "Training compute (FLOP)_distribution": {
+      "ks_statistic": "0.3592830253661725",
+      "ks_p_value": "1.297659158524802e-101",
+      "distribution_preserved": "False"
+    },
+    "Training compute cost (2023 USD)_distribution": {
+      "ks_statistic": "0.47737753101425984",
+      "ks_p_value": "2.1897076160121167e-38",
+      "distribution_preserved": "False"
+    }
+  },
+  "timestamp": "2025-09-18T18:41:29.854654",
+  "summary": {
+    "original_missing_count": 61161,
+    "imputed_missing_count": 44982,
+    "improvement_percentage": 26.453131897777997,
+    "total_observations": 3018
+  }
+}

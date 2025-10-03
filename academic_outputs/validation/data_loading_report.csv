@@ -1,0 +1,6 @@
+,status,n_rows,n_columns,quality_score,missing_rate
+ml_models,success,3018.0,35.0,0.66,0.48825144371864054
+organizations,success,1210.0,5.0,0.66,0.24859504132231405
+model_versions,success,440.0,8.0,0.66,0.4278409090909091
+ml_hardware,file_not_found,,,,
+benchmarks_scores,success,626.0,5.0,0.9356389776357827,0.001597444089456869

@@ -1,0 +1,24 @@
+CITATION INFORMATION
+==================================================
+
+Please cite this work as:
+
+[Your Names] (2024). "Scaling Laws and Knowledge Diffusion in Frontier AI Innovation."
+[Journal Name], [Volume], [Pages].
+
+BibTeX:
+@article{yourname2024scaling,
+  title={Scaling Laws and Knowledge Diffusion in Frontier AI Innovation},
+  author={[Your Names]},
+  journal={[Journal Name]},
+  volume={[Volume]},
+  pages={[Pages]},
+  year={2024},
+  publisher={[Publisher]}
+}
+
+Data Citation:
+Epoch AI Team. (2024). "Parameter, Compute and Data Trends in Machine Learning."
+https://epochai.org/data
+
+Replication Package Generated: 2025-09-18

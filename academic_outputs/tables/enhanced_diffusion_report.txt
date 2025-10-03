@@ -1,0 +1,35 @@
+ENHANCED DIFFUSION ANALYSIS REPORT
+=============================================
+
+SAMPLE QUALITY: EXCELLENT
+Sample size: 1322 comparable pairs identified
+✅ Sample size sufficient for robust statistical inference
+
+DIFFUSION PATTERNS:
+  Mean lag: 34.3 months
+  Median lag: 35.6 months
+  Range: 0.1 - 60.0 months
+  Std deviation: 17.4 months
+  Coefficient of variation: 0.51
+  Size effect: Larger open models take longer
+  Similarity effect: More similar models are faster
+
+TEMPORAL TRENDS:
+  No significant temporal trend detected
+
+CAUSAL ANALYSIS:
+  Overall assessment: Strong causal evidence
+  Successful identification strategies: 3
+  difference_in_differences_log_parameters: Effect = -2.619 (not significant)
+  difference_in_differences_log_params_alt: Effect = -1.170 (not significant)
+
+POLICY IMPLICATIONS:
+  ✅ MANAGEABLE: Moderate diffusion speed
+  - Current pace allows reasonable exclusivity
+  - Traditional incentives may suffice
+  - Continue monitoring trends
+
+LIMITATIONS & FUTURE RESEARCH:
+  - Model similarity assessment could be refined
+  - Additional data collection would improve precision
+  - Cross-domain analysis could provide broader insights

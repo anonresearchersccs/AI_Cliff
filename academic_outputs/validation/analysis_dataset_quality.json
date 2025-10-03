@@ -1,0 +1,10 @@
+{
+  "overall_quality_score": 0.42351413095356855,
+  "missing_data_percentage": 0.4405523381450428,
+  "outlier_percentage": 0.0010131712259371835,
+  "temporal_consistency_score": 0.06418823607364581,
+  "recommendations": [
+    "High missing data rate (44.1%). Consider imputation strategies or additional data collection.",
+    "Low temporal consistency (6.4%). Review date formatting and chronological ordering."
+  ]
+}

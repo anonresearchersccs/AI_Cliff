@@ -1,0 +1,16 @@
+Table 2: Scaling Law Parameter Estimates
+==================================================
+
++-----------------+-------------+------+---------------+----------------+-----------+-------+
+| Relationship    | Model       |    N | γ (SE)        | 95% CI         |   p-value |    R² |
++=================+=============+======+===============+================+===========+=======+
+| Compute Scaling | log_log_ols | 1094 | 1.697 (0.038) | [1.622, 1.772] |         0 | 0.797 |
++-----------------+-------------+------+---------------+----------------+-----------+-------+
+| Cost Scaling    | log_log_ols |  176 | 0.702 (0.065) | [0.575, 0.829] |         0 | 0.449 |
++-----------------+-------------+------+---------------+----------------+-----------+-------+
+
+Notes:
+- γ is the scaling exponent from log-log regression
+- SE in parentheses uses heteroskedasticity-robust standard errors
+- 95% CI computed using normal approximation
+- All models use log-log specification unless noted
